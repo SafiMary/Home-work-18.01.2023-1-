@@ -6,14 +6,13 @@
 
 
 
-
 int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
 
-	ElectricBike<std::string> a;
+	ElectricBike  a("Шустрик");
 	a.printBiKeInfo();
-	a.Transport<std::string>::printFuelInfo();
+	a.printFuelInfo();
 
 }
